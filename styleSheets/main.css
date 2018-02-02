@@ -1,0 +1,51 @@
+/* 
+    Created on : Jan 21, 2018, 8:33:40 PM
+    Author     : thomastylek
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+    font-family   : 'Six Caps', sans-serif;
+    font-size     : 4em;
+    letter-spacing: .03em;
+}
+
+.wrapper {
+    padding: 0; 
+}
+
+.img-fluid {
+    width  : 100%;
+}
+
+/* Navbar Styling */
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:hover {
+    background: transparent;
+    border    : none;
+    outline   : none;
+}
+
+/* Navbar Animations */
+.navbar-toggler:not(.collapsed) span {
+    -moz-transform    : rotate(45deg);
+    -webkit-transform : rotate(45deg);
+    -ms-transform     : rotate(45deg);
+    -o-transform      : rotate(45deg);
+    transform         : rotate(45deg);
+}
+
+.navbar-toggler span{
+    -moz-transition   : all 0.2s;
+    -webkit-transition: all 0.2s;
+    -ms-transition    : all 0.2s;
+    -o-transition     : all 0.2s;
+    transition        : all 0.2s;
+    -moz-transform   : rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform    : rotate(0deg);
+    -o-transform     : rotate(0deg);
+    transform        : rotate(0deg);
+}
