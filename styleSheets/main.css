@@ -3,23 +3,33 @@
     Author     : thomastylek
 */
 
+/* custom font for body */
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* custom font and spacing for banner */
 .banner {
     font-family   : 'Six Caps', sans-serif;
     font-size     : 4em;
     letter-spacing: .03em;
 }
 
+/* remove default boostrap padding */
 .wrapper {
     padding: 0; 
 }
 
-.img-fluid {
-    width  : 100%;
+.fa-chevron-right, .fa-chevron-left {
+    color: black;
 }
+
+/* resize images to fit nicely in carousel and keep aspect ratio */
+.carousel-image {
+    height: 50vh;
+    width: auto;
+}
+
 
 /* Navbar Styling */
 .navbar-toggler, .navbar-toggler:focus, .navbar-toggler:hover {
