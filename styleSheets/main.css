@@ -8,6 +8,26 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* background colors */
+
+.lightgraybg {
+    background-color: #ABABAB;
+}
+
+.darkgraybg {
+    background-color: #878787;
+}
+
+.purplebg {
+    background-color: #9066A8;
+    color: white;
+}
+
+/* footer custom color */
+footer {
+    color: #ABABAB;
+}
+
 /* custom font and spacing for banner */
 .banner {
     font-family   : 'Six Caps', sans-serif;
