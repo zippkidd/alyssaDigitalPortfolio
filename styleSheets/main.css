@@ -31,8 +31,27 @@ footer {
 /* custom font and spacing for banner */
 .banner {
     font-family   : 'Six Caps', sans-serif;
-    font-size     : 4em;
+    font-size     : 4.5em;
     letter-spacing: .03em;
+}
+
+/* custom font and color for section titles */
+.title {
+    font-family   : 'Six Caps', sans-serif;
+    font-size     : 3.4em;
+    letter-spacing: .03em;
+    color         : #50057A;
+}
+
+/* About Me */
+#about {
+    color: #50057A;
+}
+
+/* Positions white text */
+
+.white {
+    color: white;
 }
 
 /* remove default boostrap padding */
